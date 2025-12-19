@@ -1,105 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Keenan MacNeill Resume</title>
-        <style>
-            .footer{
-                text-align:center;
-                padding: 10px;
-                background-color: lightgrey;
-            }
-            table{
-                width: 100%;
-                border: 1px solid black;
-            }
-            dt{
-                font-weight: bold;
-            }
-            section{
-                padding: 10px;
-                border: 1px solid black;
-                margin: 10px;
-            }
-        </style>
-    </head>
-    <body>
-        <section>  
-          <header class="header"><h1>Keenan MacNeill Resume</h1></header>
-          <article>
+
+<head>
+    <title>Keenan MacNeill Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header class="header">
+            <h1>Keenan MacNeill Resume</h1>
+        </header>
+        <article class="header">
             <p>Welcome to my website!</p>
-            <hr>
         </article>
-        <nav class="navbar">Navigation
-              <ul>
-                  <li><a href="#Experience">Experience</a></li>
-                  <li><a href="#Education">Education</a></li>
-                  <li><a href="#Interests">Interests</a></li>
-                  <li><a href="#Skills">Skills</a></li>
-                  <li><a href="#Contact">Contact</a></li>
-              </ul>
-        </nav>
-        </section> 
-              <section id="Experience">
-              <h2>Experience</h2>
-              <table>
-                  <colgroup>
-                      <col span="1" style="background-color: lightgrey;">
-                  </colgroup>
-               <tr><th>Company</th>
-                  <th>Details</th>
-                    <th>Years</th>
-                </tr>
-                <tr>
-                    <td>Walmart</td>
-                    <td>Cashier</td>
-                    <td>2018-2020</td>
-                </tr>
-                <tr>
-                    <td>Walmart</td>
-                    <td>Assistant Manager</td>
-                    <td>2020-2023</td>
-                </tr>
-                <tr>
-                    <td>Walmart</td>
-                    <td>General Manager</td>
-                    <td>2023-2028</td>
-                </tr>
-            </table>
+        <section class='holder'>
+            <input name="first">
+            <input name="last">
         </section>
-        <section id="Education">
-            <h2>Education</h2>
-            <dl>
+        <input type="checkbox">
+        <button>Click Me</button>
+    </section>
+    <section>
+        <nav class="navbar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Interests">Interests</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id="Experience">
+        <h2>Experience</h2>
+        <table style="text-align: center;">
+            <colgroup>
+                <col span="1" style="background-color: lightgrey;">
+            </colgroup>
+            <tr>
+                <th>Company</th>
+                <th>Details</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>Walmart</td>
+                <td>Cashier</td>
+                <td>2018-2020</td>
+            </tr>
+            <tr>
+                <td>Walmart</td>
+                <td>Assistant Manager</td>
+                <td>2020-2023</td>
+            </tr>
+            <tr>
+                <td>Walmart</td>
+                <td>General Manager</td>
+                <td>2023-2028</td>
+            </tr>
+        </table>
+    </section>
+    <section id="Education">
+        <h2>Education</h2>
+        <dl>
+            <p>
                 <dt>American Military University</dt>
                 <dd>Bachelor of Science in Business Analytics</dd>
+            </p>
+            <p>
                 <dt>Lean Alaska</dt>
                 <dd>Certified Lean Six Sigma Black Belt</dd>
-            </dl>
-        </section>
-        <section id="Interests">
-            <h2>Interests</h2>
-            <ul>
-                <li>Video Games</li>
-                <li>DIY Home and Auto</li>
-                <li>Coding</li>
-            </ul>
-        </section>
-        <section id="Skills">
-            <h2>Skills</h2>
-            <ol>
-                <li>JavaScript</li>
-                  <ul>
-                    <li>DOM</li>
-                  </ul>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ol>
-        </section>
-        <section id="Contact">
-            <h2>Contact</h2>
-            <p>
-                Contact me at <a href="mailto:macneill.keenan@gmail.com">macneill.keenan@gmail.com</a>
             </p>
-        </section>
-        <footer class="footer">Copyright 2025 Keenan MacNeill. Please contact me at <a href="mailto:macneill.keenan@gmail.com">macneill.keenan@gmail.com</a> to find out more.</footer>
-    </body>
+        </dl>
+    </section>
+    <section id="Interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Video Games</li>
+            <li>DIY Home and Auto</li>
+            <li>Coding</li>
+        </ul>
+    </section>
+    <section id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+    <section id="Contact">
+        <h2>Contact</h2>
+        <p>
+            Contact me at <a href="mailto:macneill.keenan@gmail.com">macneill.keenan@gmail.com</a>
+        </p>
+    </section>
+    <footer class="footer">Copyright 2025 Keenan MacNeill. Please contact me at <a
+            href="mailto:macneill.keenan@gmail.com">macneill.keenan@gmail.com</a> to find out more.</footer>
+    <script src="app.js"></script>
+    <script src="dom.js"></script>
+</body>
+
 </html>
