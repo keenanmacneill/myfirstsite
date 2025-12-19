@@ -1,0 +1,73 @@
+/* comments*/
+
+body {
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+    margin: 0px
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+dt,
+nav {
+    font-weight: bold;
+}
+
+section {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+h1,
+h2 {
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+
+    ul {
+        padding: 0px;
+        margin: 20px 0px 10px 0px;
+    }
+
+    li {
+        display: inline;
+        background-color: black;
+        padding: 10px;
+        margin: 0vw;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.header {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+dd {
+    margin: 0px;
+}
