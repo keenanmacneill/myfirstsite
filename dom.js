@@ -72,7 +72,6 @@
 //last.value = 'MacNeill';
 //chk.checked = true;
 
-//const btn = document.querySelector('button');
 //let counter = 0;
 
 //btn.addEventListener('click', btnClicked);
@@ -86,34 +85,80 @@
 
 //btn.addEventListener('click', temp, { once: true });
 //function temp() {
-    //console.log('clickedOnceTrue');
+//console.log('clickedOnceTrue');
 //}
 
 //btn.addEventListener('click', adder);
 //function adder(e) {
-    //const el = e.target;
-    //el.removeEventListener('click', adder);
-    //el.style.color = '#ddd';
-    //console.log('clickedRemoveEventListener');
+//const el = e.target;
+//el.removeEventListener('click', adder);
+//el.style.color = '#ddd';
+//console.log('clickedRemoveEventListener');
 //}
 
 //const holder = document.querySelectorAll('.holder input');
 //holder.forEach(holder => {
 //holder.addEventListener('mouseover', (e)=>{
-    //holder.style.background = 'red';
-    //holder.classList.toggle('box');
+//holder.style.background = 'red';
+//holder.classList.toggle('box');
 //});
 //holder.addEventListener('mouseout', (e)=>{
-    //holder.style.background = 'white';
-    //holder.classList.toggle('box');
+//holder.style.background = 'white';
+//holder.classList.toggle('box');
 //});
 //holder.addEventListener('click', (e)=>{
-    //holder.style.background='blue';
+//holder.style.background='blue';
 //});
 //holder.addEventListener('focus', ()=>{
-    //holder.style.background = 'green';
+//holder.style.background = 'green';
 //})
 //holder.addEventListener('blur', (e) =>{
-    //holder.style.background = 'white';
+//holder.style.background = 'white';
 //})
 //});
+
+//const holder = document.querySelectorAll('.holder input');
+//const btn = document.querySelector('button');
+//const body = document.querySelector('body');
+//const output = document.querySelector('.holder');
+//let counter = 0;
+
+//btn.addEventListener('click', () => {
+//holder.forEach(input => {
+//console.log(input.value);
+//const div = document.createElement('div');
+//div.textContent = input.value;
+//console.log(div);
+//body.prepend(div);
+//body.append(div);
+//input.value = '';
+//});
+//});
+
+//const moving = document.querySelector('.moving');
+//moving.style.position = 'absolute';
+//const ele = { x: moving.offsetLeft, y: moving.offsetTop };
+
+
+//moving.addEventListener('click', (e) => {
+    //ele.x += 50;
+    //ele.y += 50;
+    //moving.style.left = ele.x + 'px';
+    //moving.style.top = ele.y + 'px';
+//})
+
+//document.addEventListener('keydown', (e) => {
+    //console.log(e.key);
+    //if (e.key == 'ArrowLeft') {
+        //ele.x -= 50;
+    //} else if (e.key == 'ArrowRight') {
+        //ele.x += 50;
+    //} else if (e.key == 'ArrowUp') {
+        //ele.y -= 50;
+    //} else if (e.key == 'ArrowDown') {
+        //ele.y += 50;
+    //}
+    //moving.style.top = ele.y + 'px';
+    //moving.style.left = ele.x + 'px';
+//})
+
